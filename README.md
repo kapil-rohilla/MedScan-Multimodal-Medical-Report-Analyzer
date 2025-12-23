@@ -34,36 +34,36 @@ https://github.com/user-attachments/assets/8c96c6b8-26f1-4347-8755-8633fa6e787f
 ### Image Classification
 
 **ECG Classification**
-<img width="1095" height="632" alt="ECG-Classified" src="https://github.com/user-attachments/assets/7498e49b-928e-4f68-9da7-8f66969b5265" />
+<img width="1000" alt="ECG Classification" src="assets/images/ECG-Classified.png" />
 
 **X-ray Classification**
-<img width="1164" height="803" alt="X-RAY Classified" src="https://github.com/user-attachments/assets/0daadbce-bddf-4655-bcd6-b4e3e8818679" />
+<img width="1000" alt="X-ray CLssification" src="assets/images/X-RAY Classified.png" />
 
 **Ultrasound Classification**
-<img width="824" height="394" alt="Ultrasound-Classified" src="https://github.com/user-attachments/assets/0625df79-6648-453e-b8d9-93a8ae8e5b4e" />
+<img width="1000" alt="Ultrasound Classification" src="assets/images/Ultrasound-Classified.png" />
 
 ---
 
 ### LLM Summaries
 
 **X-ray – Clinical Summary**
-<img width="1070" height="743" alt="X-RAY Clinical Summary" src="https://github.com/user-attachments/assets/a4857b4b-0692-4968-842a-9985a2db5305" />
+<img width="1070" height="743" alt="X-RAY Clinical Summary" src="X-RAY(Clinical Summary).png" />
 
 **X-ray – Patient Summary**
-<img width="1084" height="816" alt="X-RAY Patient Summary" src="https://github.com/user-attachments/assets/845b1bdb-7ea7-4de0-8283-64ebdbefe522" />
+<img width="1084" height="816" alt="X-RAY Patient Summary" src="X-RAY(Patient Summary).png" />
 
 **Lab Report – Clinical Summary**
-<img width="1102" height="799" alt="Lab Clinical Summary" src="https://github.com/user-attachments/assets/08301a62-47fa-405f-a4f5-6de752ce0cfd" />
+<img width="1102" height="799" alt="Lab Clinical Summary" src="Lab(Clinical Summary).png" />
 
 **Lab Report – Patient Summary**
-<img width="1181" height="824" alt="Lab Patient Summary" src="https://github.com/user-attachments/assets/dcd53084-2469-4700-b2f0-b66a6e05ae2d" />
+<img width="1181" height="824" alt="Lab Patient Summary" src="Lab(Patient Summary).png" />
 
 ---
 
 ### Lab Table Extraction
 
 **Cleaned table with low and normal flags**
-<img width="1904" height="537" alt="Lab Table Extracted" src="https://github.com/user-attachments/assets/482b7faf-8679-419f-9118-d170e59cfe58" />
+<img width="1904" height="537" alt="Lab Table Extracted" src="Lab Table Extracted.png" />
 
 ---
 
@@ -149,6 +149,7 @@ streamlit run app.py
 MedScan is an ongoing learning and research project developed to explore multimodal medical report analysis using a combination of traditional processing techniques, deep learning, and large language models.
 The repository is shared to document design decisions, experimentation, and system-level thinking rather than to present a finished clinical product. Feedback, discussions, and research-oriented contributions are welcome.
 If you are reviewing this project as part of an academic, learning, or portfolio context, feel free to reach out for clarification on design choices or future directions.
+
 
 
 
