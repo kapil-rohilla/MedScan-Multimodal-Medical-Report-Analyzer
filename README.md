@@ -47,23 +47,23 @@ https://github.com/user-attachments/assets/8c96c6b8-26f1-4347-8755-8633fa6e787f
 ### LLM Summaries
 
 **X-ray – Clinical Summary**
-<img width="1070" height="743" alt="X-RAY Clinical Summary" src="X-RAY(Clinical Summary).png" />
+<img width="1070" height="743" alt="X-RAY Clinical Summary" src="assets/images/X-RAY(Clinical Summary).png" />
 
 **X-ray – Patient Summary**
-<img width="1084" height="816" alt="X-RAY Patient Summary" src="X-RAY(Patient Summary).png" />
+<img width="1084" height="816" alt="X-RAY Patient Summary" src="assets/images/X-RAY(Patient Summary).png" />
 
 **Lab Report – Clinical Summary**
-<img width="1102" height="799" alt="Lab Clinical Summary" src="Lab(Clinical Summary).png" />
+<img width="1102" height="799" alt="Lab Clinical Summary" src="assets/images/Lab(Clinical Summary).png" />
 
 **Lab Report – Patient Summary**
-<img width="1181" height="824" alt="Lab Patient Summary" src="Lab(Patient Summary).png" />
+<img width="1181" height="824" alt="Lab Patient Summary" src="assets/images/Lab(Patient Summary).png" />
 
 ---
 
 ### Lab Table Extraction
 
 **Cleaned table with low and normal flags**
-<img width="1904" height="537" alt="Lab Table Extracted" src="Lab Table Extracted.png" />
+<img width="1904" height="537" alt="Lab Table Extracted" src="assets/images/Lab Table Extracted.png" />
 
 ---
 
@@ -149,6 +149,7 @@ streamlit run app.py
 MedScan is an ongoing learning and research project developed to explore multimodal medical report analysis using a combination of traditional processing techniques, deep learning, and large language models.
 The repository is shared to document design decisions, experimentation, and system-level thinking rather than to present a finished clinical product. Feedback, discussions, and research-oriented contributions are welcome.
 If you are reviewing this project as part of an academic, learning, or portfolio context, feel free to reach out for clarification on design choices or future directions.
+
 
 
 
