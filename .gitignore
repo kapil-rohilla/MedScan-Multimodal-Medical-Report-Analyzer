@@ -1,0 +1,23 @@
+# Virtual env
+.venv/
+env/
+venv/
+
+# Data & outputs
+data/
+output/
+test_image_classification/
+uploads/
+
+# Notebooks
+notebooks/
+*.ipynb
+.ipynb_checkpoints/
+
+# Streamlit / local stuff
+.streamlit/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
