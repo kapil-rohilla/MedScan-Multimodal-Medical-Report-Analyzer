@@ -1,23 +1,35 @@
-# Virtual env
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
 .venv/
 env/
 venv/
 
-# Data & outputs
+# Data, outputs & uploads
 data/
+datasets/
 output/
-test_image_classification/
 uploads/
+test_image_classification/
+
 
 # Notebooks
 notebooks/
 *.ipynb
 .ipynb_checkpoints/
 
-# Streamlit / local stuff
+# Logs & temp files
+*.log
+*.tmp
+
+# Streamlit / local runtime
 .streamlit/
 
 # IDE / OS
 .vscode/
 .idea/
 .DS_Store
+Thumbs.db
