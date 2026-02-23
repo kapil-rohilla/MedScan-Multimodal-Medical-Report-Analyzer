@@ -121,13 +121,15 @@ End by stating that findings should be correlated clinically.
 def _run_llm(prompt: str) -> str:
     try:
         resp = requests.post(
-            "http://localhost:11434/api/generate",
+            "http://127.0.0.1:11434/api/chat",
             json={
-                "model": "phi3:mini",
-                "prompt": prompt,
+                "model": "phi3:latest",
+                "messages": [
+                    {"role": "user", "content": prompt}
+                ],
                 "stream": False,
                 "options": {
-                    "num_predict" : 300,
+                    "num_predict": 300,
                     "temperature": 0.2
                 }
             },
@@ -136,16 +138,11 @@ def _run_llm(prompt: str) -> str:
 
         resp.raise_for_status()
 
-        # Robust JSON handling
-        try:
-            data = resp.json()
-        except Exception:
-            raise ValueError(f"Non-JSON response: {resp.text[:200]}")
+        data = resp.json()
+        response_text = data.get("message", {}).get("content")
 
-        response_text = data.get("response")
-
-        if not response_text or not isinstance(response_text, str):
-            raise ValueError("Empty or invalid LLM response")
+        if not response_text:
+            raise ValueError("Empty LLM response")
 
         return response_text.strip()
 
